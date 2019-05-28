@@ -116,7 +116,7 @@ function checkIfWasSubmitted() {
   if (urlParams.has("thankyou")) {
     document.querySelector(".container").innerHTML = `
       <h1 class="mt-5">Thank you for submission!</h1>
-      <p>Do you want to submit another one? Click <a href="/">here</a></p>
+      <p>Do you want to submit another one? Click <a href="?form">here</a></p>
     `;
   }
 }
